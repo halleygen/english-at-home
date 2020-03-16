@@ -9,6 +9,7 @@
     />
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -21,7 +22,7 @@
   <body data-spy="scroll" data-target="#navbar-main" data-offset="56">
     <nav
       id="navbar-main"
-      class="navbar navbar-expand-lg sticky-top navbar-light bg-light"
+      class="container navbar navbar-expand-lg sticky-top navbar-light bg-light"
     >
       <a class="navbar-brand" href="#">English in Quarantine</a>
       <button
@@ -46,7 +47,46 @@
         </ul>
       </div>
     </nav>
-    <h1>Hello, world!</h1>
+
+    <section class="container pt-3 pb-3">
+      <div class="row">
+        <h1>
+          English in Quarantine <br />
+          <small class="text-muted"
+            >Listening and Speaking Activities to Practise English</small
+          >
+        </h1>
+      </div>
+    </section>
+
+    <section id="grades" class="container pt-3 pb-3">
+      <h1>Grades</h1>
+      <div class="row">
+        <div class="col-md">
+          <h2><abbr title="Primaria">Primary School</abbr></h2>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Grade 1</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Grade 2</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Grade 3</a>
+            <a href="grade4.html" class="list-group-item list-group-item-action">Grade 4</a>
+            <a href="grade5.html" class="list-group-item list-group-item-action">Grade 5</a>
+            <a href="grade6.html" class="list-group-item list-group-item-action">Grade 6</a>
+          </div>
+        </div>
+        <div class="col-md">
+          <h2><abbr title="Infantil">Preschool</abbr></h2>
+          <div class="list-group">
+            <a href="inf3.html" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">3 Years Old</a>
+            <a href="inf4.html" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">4 Years Old</a>
+            <a href="inf5.html" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">5 Years Old</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="activities" class="container pt-3 pb-3">
+      <h1>Other Activities</h1>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
